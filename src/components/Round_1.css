@@ -1,0 +1,65 @@
+.round-1-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+  align-items: center;
+  padding: 20px 0; /* Add some vertical padding */
+  background-image: url('/public/wallpaperflare.com_wallpaper(3).jpg');
+  background-size: cover;
+  background-position: -320px center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.carried-timer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+}
+
+.round1-timer {
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.visible-input {
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  width: 80%; /* Reduce the width of the textbox */
+  max-width: 300px; /* Set a maximum width */
+}
+
+.invisible-input {
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 50%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.warning-message {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .round-1-page {
+    padding: 20px; /* Adjust padding for mobile view */
+  }
+}
